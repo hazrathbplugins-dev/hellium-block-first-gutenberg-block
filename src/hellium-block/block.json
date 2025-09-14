@@ -9,7 +9,18 @@
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
 	"supports": {
-		"html": false
+		"html": false,
+		"spacing": {
+			"margin": true, 
+			"padding": true, 
+			"blockGap": true
+		},
+		"background": {
+			"backgroundImage": true, 
+			"backgroundSize": true 
+		},
+		"anchor": true,
+		"align": [ "left", "right" ]
 	},
 	"attributes": {
 		"content": {

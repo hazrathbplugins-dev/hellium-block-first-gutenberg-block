@@ -50,7 +50,21 @@ return array(
 			
 		),
 		'supports' => array(
-			'html' => false
+			'html' => false,
+			'spacing' => array(
+				'margin' => true,
+				'padding' => true,
+				'blockGap' => true
+			),
+			'background' => array(
+				'backgroundImage' => true,
+				'backgroundSize' => true
+			),
+			'anchor' => true,
+			'align' => array(
+				'left',
+				'right'
+			)
 		),
 		'attributes' => array(
 			'content' => array(
